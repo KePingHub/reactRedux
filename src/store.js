@@ -7,7 +7,6 @@ let reducer = combineReducers({
   counter,
   todo
 })
-
 let store = createStore(reducer)
 
 export {store}
